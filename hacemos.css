@@ -108,6 +108,7 @@ a{
     background-color: azure;
     font-size: 20px;
     
+    
 }
 
 .caja{
@@ -136,10 +137,16 @@ a{
 .pa{
     color:orangered;
     font-size: 30px;
+    
 }
 
 .precio{
     color:#FF6347;
+}
+
+.planez{
+    margin-left:16%;
+    
 }
 
 
@@ -157,6 +164,7 @@ a{
 h1{
     color:orangered;
     font-weight:600;
+    
 }
 
 .azul{
@@ -576,6 +584,7 @@ h1{
     
     
     
+    
 }
 
 @media only screen and (min-width: 768px){
@@ -743,6 +752,10 @@ h1{
 
     .ecomerce, .diseñ, .motor, .desarrollo{
         height:10%;
+        
+    }
+    .planez{
+        margin-left:0%;
         
     }
     
