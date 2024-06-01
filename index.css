@@ -184,7 +184,7 @@ body{
     box-shadow: 5px 5px 5px gray;
  }
  .ser2,.ser3,.ser4,.ser5{
-    margin: 2%;
+    margin: 8%;
  }
 
  /*Botones de Ver mas*/
@@ -233,8 +233,8 @@ body{
  }
  #btct{
     flex-basis: 100%;
-    padding: 15px 50px;
-    margin: 2%;
+    padding: 1%;
+    margin: 5%;
     color:#fbfbf5;
     font-size: 1.3em;
     border:2px solid #fbfbf5;

@@ -76,6 +76,7 @@ a{
     font-weight: 500;
     color:#5f5a51;
     text-shadow: 1px 1px 1px #d8d2ca;
+    
 }
 
 .todo{
@@ -108,13 +109,14 @@ a{
     align-items: center;
     justify-content: center;
     
+    
 }
 .es1{
-    animation: slide-in 1s ease-out;
+    
     grid-row: 1/2;
 }
 .es2{
-    animation: slide-in 1s ease-out;
+    
     grid-row: 2/3;
 }
 
@@ -123,6 +125,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .nos{
     width: 80%;
@@ -135,10 +138,11 @@ section {
     position: relative;
     height: 100%;
     
+    
 }
 
 section h3 {
-    font-family: 'Lora', serif;
+    
     font-size: 2em;
     color: #694318; 
     position: relative;

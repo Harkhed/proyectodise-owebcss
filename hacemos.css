@@ -83,8 +83,10 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(36, 53, 209);
+    background-color: #FFEDD5;
+    border:2px solid #FFDAB9;
     margin-top: 1.2em;
+    color:#555;
     
 }
 
@@ -113,7 +115,8 @@ a{
     background-color: azure;
     border-radius: 3%;
     padding: 30px;
-    box-shadow: -5px 0px 20px white;
+    Box-shadow: 10px 10px 10px gray;
+    
 }
 
 .caja1{
@@ -131,12 +134,12 @@ a{
 }
 
 .pa{
-    color: blue;
+    color:orangered;
     font-size: 30px;
 }
 
 .precio{
-    color: rgb(0, 183, 255);
+    color:#FF6347;
 }
 
 
@@ -152,7 +155,8 @@ a{
 }
 
 h1{
-    color: white;
+    color:orangered;
+    font-weight:600;
 }
 
 .azul{
@@ -268,8 +272,7 @@ h1{
 .eclip1,.eclip2,.eclip3,.eclip4{
     display: flex;
     box-shadow: 1px 1px 10px 0px lightgrey;
-    margin-top: 20px;
-    border-radius: 10px;
+    margin-top:10%;
 }
 .mimg{
     width: 350px;
@@ -293,12 +296,12 @@ h1{
 
 
 .btn2{
-    padding: 10px 50px;
+    padding: 10px 20px;
     background-color: #555;
     color:#fbfbfb;
     border-radius: 10px;
     box-shadow: 1px 1px 2px #555;
-    margin-left: 25%;
+    margin-left: 15%;
 }
 .btn2:hover{
     opacity: 0.8;
@@ -310,16 +313,16 @@ h1{
 
 /*Tipos de anuncios*/
 .img3{
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 170px;
 }
 .imgc3{
     width: 200px;
-    height: 150px;
+    height: 170px;
 }
 .imgb3{
     width: 150px;
-    height: 140px;
+    height: 190px;
 }
 .anuncios{
     display: flex;
@@ -338,19 +341,24 @@ h1{
     color:#5f5a51;
     margin-bottom: 30px;
 }
+
+
 .add{
     justify-content: center;
     width: 90%;
     display: flex;
 
 }
+
+
+
 .ad1,.ad2,.ad3{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 30px;
+    margin: 1%;
     
-    height: 100%;
+    
     background-color: #fbfbfb;
     box-shadow: 4px 4px 8px #555;
     align-items: center;
@@ -498,6 +506,7 @@ h1{
         flex-direction: column;
     }
 
+    
 
     .descubre{
         width: 90%;
@@ -668,7 +677,9 @@ h1{
         color: #968776;
     }
 
-    
+    .ad1,.ad2,.ad3{
+        width:33.3%;
+    }
     
     
     .fot{
@@ -725,11 +736,15 @@ h1{
         height:auto;
     
     }
-
+    
+    .eclip1,.eclip2,.eclip3,.eclip4{
+        height:auto;
+    }
 
     .ecomerce, .diseñ, .motor, .desarrollo{
-        padding:3% 5% 3% 5%;
-        margin-top:-1%;
+        height:10%;
+        
     }
+    
     
 }
